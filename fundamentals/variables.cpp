@@ -1,0 +1,17 @@
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    int age = 21;
+    double height = 175.5;
+    char grade = 'A';
+    bool isStudent = true;
+
+    cout << "Age: " << age << endl;
+    cout << "Height: " << height << " cm" << endl;
+    cout << "Grade: " << grade << endl;
+    cout << "Student: " << isStudent << endl;
+
+    return 0;
+}
